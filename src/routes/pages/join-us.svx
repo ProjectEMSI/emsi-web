@@ -1,0 +1,121 @@
+---
+title: Přidej se k nám
+description: Join us
+---
+
+# {title}
+
+Baví tě videohry, chceš se naučit něco nového z mnoha oborů, poznat skvělou partu lidí, se kterou společně vytvoříš skvělé místo pro všechny hráče?
+Pokud ano, mrkni na pozice, které hledáme. Nemusíš být odborník, se vším ti postupně pomůžeme a zdokonalíme tě, ale rádi se i přiučíme.
+Na každou pozici hledáme hned vícero dobrovolníků, jelikož nemáme finance na zaplacení každého full-time, takže předpokládáme, že každý bude dělat jen minimum, které mu volný čas dovolí.
+
+## Koho v současné době hledáme?
+
+- [Readaktor](#redaktor)
+- [Developer](#developer)
+- [Správce sociálních sítí](#spravce-socialnich-siti)
+
+<a name="redaktor"></a>
+
+### Redaktor
+
+---
+
+Chceš být pisálek, který to jednou třeba dotáhne až do největších českých magazínů? Jako třeba <a href="https://www.instagram.com/trananas/" target="_blank">Trananas</a> v CNN Prima News?
+
+#### Co bys měl umět?
+
+- Spisovnou češtinu
+- Anglický jazyk
+- Základní povědomí o Markdown a WYSIWYG
+- Celkový rozlet v gamingu nebo esportu
+- Proaktivitu
+
+#### Co ti můžeme nabídnout?
+
+- Zkušenosti s psaním článků, shortek, PR textů apod.
+- Přístup k novým hrám pro recenze
+- Benefity na našem webu, discordu apod.
+- Různé Benefity od našich partnerů
+- Po zapracování další měnu na našem webu
+- Skvělou partu lidí, kteří se vším rádi pomohou
+
+Pokud máš zájem, ozvi se nám na Discord, Facebook nebo Twitter, napiš nám trochu o sobě a rovnou nám pošli nějakou ukázku, díky které tě budeme schopni nějak ohodnotit.
+
+<a name="developer"></a>
+
+### Developer
+
+---
+
+Zajímá tě, jak vlastně celý projekt vzniká za oponou? Máš alespoň základní zkušenosti s jakýmkoliv programovacím jazykem?
+Jestli sis odpověděl na obojí ano, tak tě určitě rádi přivítáme, každopádně nemůžeme přijmout každého nováčka, takže bereme pouze lidi, kteří se chtějí aktivně vývoji věnovat a proaktivně se učit novým věcem.
+
+#### Co bys měl umět?
+
+- Dobrá znalost anglického jazyka (celý stack má dokumentaci pouze v angličtině a celý vývoj spravujeme v angličtině)
+- Základy alespoň jednoho programovacího jazyku
+- Povědomí o MVC a jak funguje Git
+- Pacovat samostatně
+
+#### Stack, se kterým pracujeme
+
+- PHP 8.1 (Laravel 9.x)
+- React (Remix)
+- Tailwind CSS
+- Socket.io
+- Cloudflare
+- Github
+
+#### Co ti můžeme nabídnout?
+
+- Zkušenosti s vývojem large scale aplikací
+- Code review na každý pull request, který tě posune dál
+- Zdarma tools, které jsou nutné k vývoji našich aplikací
+- Benefity na našem webu, discordu apod.
+- Různé Benefity od našich partnerů
+- Po zapracování další měnu na našem webu
+- Skvělou partu lidí, kteří se vším rádi pomohou
+
+<a name="spravce-socialnich-siti"></a>
+
+### Správce sociálních sítí
+
+---
+
+#### Co bys měl umět?
+
+- Český a anglický jazyk
+- Pracovat se sociálními sítěmi
+- Pracovat s lidmi
+- Vědět, co lidi zaujme
+
+#### Co ti můžeme nabídnout?
+
+- Účast na publikaci příspěvků pro velké publikum plné hráčů
+- Zkušenosti s nástroji, které používáme pro publikaci
+- Zkušenosti s reklamou na sociálních sítích
+- Benefity na našem webu, discordu apod.
+- Různé Benefity od našich partnerů
+- Po zapracování další měnu na našem webu
+- Skvělou partu lidí, kteří se vším rádi pomohou
+
+#### Co bude tvou prací?
+
+- Úzká spolupráce s redakcí
+- Publikace a nasdílení nových článků na soc. sítích
+- Příprava publikačního kalendáře pro neaktuální příspěvky
+- Komunikace s lidmi na soc. sítích a členy týmu, pro které bude zpráva určena
+
+## Nenašli jste svou pozici?
+
+Nevadí, zkuste nám napsat na Facebook, Discord nebo Twitter v čem jste dobří a třeba něco vymyslíme!
+Hledáme talentované lidi, kteří mají zájem se ve volném čase podílet na rozvoji naší webové aplikace v jakémkoliv směru, takže každý dobrý nápad pečlivě zvážíme.
+
+## Jak probíhá nábor nových členů?
+
+1. Projdeme si informace o tobě a zhodnotíme tvé současné zkušenosti s ostatními členy
+2. Pokud se nám budeš líbit, domluvíme si s tebou call na zhruba 30 minut, ve kterém tě blíže seznámíme s projektem, trochu nastíníme naše plány a promluvíme si blíže o tobě
+3. Jestliže se ti náš projekt bude líbit a nám budeš sedět do týmu, přidáme tě mezi ostatní členy a přiřadíme ti všude přístup dle tvé pozice
+4. Naučíme tě používat celý náš ekosystém a dáme ti bližší informace, jak to u nás chodí
+5. Plnohodnotně se zapojíš do rozvoje našeho projektu a budeš blíže spolupracovat s členy na základě tvého zaměření
