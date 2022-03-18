@@ -1,5 +1,5 @@
 <script>
-    import { fade, slide } from 'svelte/transition';
+    import { fade, fly } from 'svelte/transition';
     import { Icon, X } from "svelte-hero-icons";
 
     export let menuToggle;
@@ -9,9 +9,9 @@
 <div class="h-screen flex overflow-hidden">
     {#if menuToggle}
     <div class="fixed inset-0 flex z-40 md:hidden">
-        <div transition:fade={{ duration: 300 }} class="fixed inset-0 bg-gray-600 bg-opacity-75" aria-hidden="true"></div>
-        <div transition:slide={{ duration: 300 }} class="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-white">
-            <div transition:fade={{ duration: 300 }} class="absolute top-0 right-0 -mr-12 pt-2">
+        <div on:click={toggleMenu} transition:fade={{ duration: 300 }} class="fixed inset-0 bg-gray-600 bg-opacity-75" aria-hidden="true"></div>
+        <div transition:fly={{ x: -300, duration: 300, opacity: 1 }} class="relative flex-1 flex flex-col max-w-xs w-full pt-5 pb-4 bg-white">
+            <div transition:fade={{ duration: 200 }} class="absolute top-0 right-0 -mr-12 pt-2">
                 <button on:click={toggleMenu} class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span class="sr-only">Close sidebar</span>
                     <Icon src="{X}" class="h-6 w-6 text-white" />
