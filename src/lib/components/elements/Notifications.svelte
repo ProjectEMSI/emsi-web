@@ -1,5 +1,3 @@
 <script>
-    import { notifications } from "$lib/store/notifications";
-
-
+	import { notifications } from '$lib/store/notifications';
 </script>

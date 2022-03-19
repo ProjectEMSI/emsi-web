@@ -1,8 +1,8 @@
 {
-  "shorts": {
-    "latest-shorts": "Latest shorts"
-  },
-  "discord": {
-    "join": "Join our Discord channel to get the most out of our community!"
-  }
+	"shorts": {
+		"latest-shorts": "Latest shorts"
+	},
+	"discord": {
+		"join": "Join our Discord channel to get the most out of our community!"
+	}
 }

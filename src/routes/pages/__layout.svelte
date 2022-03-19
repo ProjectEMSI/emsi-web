@@ -1,5 +1,7 @@
-<div class="overflow-hidden relative p-5 bg-white flex flex-col w-full border border-slate-200 rounded-xl">
-    <div class="prose prose-lg">
-        <slot />
-    </div>
+<div
+	class="relative flex w-full flex-col overflow-hidden rounded-xl border border-slate-200 bg-white p-5"
+>
+	<div class="prose prose-lg">
+		<slot />
+	</div>
 </div>

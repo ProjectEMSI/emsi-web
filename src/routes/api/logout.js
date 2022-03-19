@@ -1,10 +1,10 @@
 export async function del({ locals }) {
-    locals.session.destroy();
+	locals.session.destroy();
 
-    return {
-        status: 303,
-        headers: {
-            location: '/login',
-        }
-    }
+	return {
+		status: 303,
+		headers: {
+			location: '/login'
+		}
+	};
 }

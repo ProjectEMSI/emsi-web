@@ -1,7 +1,7 @@
 {
-  "name": "Name",
-  "username": "Username",
-  "email": "E-Mail",
-  "password": "Password",
-  "password-confirmation": "Password confirmation"
+	"name": "Name",
+	"username": "Username",
+	"email": "E-Mail",
+	"password": "Password",
+	"password-confirmation": "Password confirmation"
 }
