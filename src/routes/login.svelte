@@ -12,7 +12,7 @@
 </script>
 
 <script>
-    import Discord from "../lib/components/sidebar/Discord.svelte";
+    import { t } from "$lib/translations"
     import FormLabel from "../lib/components/elements/forms/FormLabel.svelte";
     import FormInput from "../lib/components/elements/forms/FormInput.svelte";
     import PrimaryButton from "../lib/components/elements/buttons/PrimaryButton.svelte";
@@ -32,15 +32,15 @@
     <div class="relative bg-white flex flex-col w-full border border-slate-200 rounded-xl p-6">
         <form action="/api/login" class="space-y-4" method="POST">
             <div>
-                <FormLabel for="email" value="E-Mail" />
+                <FormLabel for="email" value={ $t('forms.email') } />
                 <FormInput id="email" name="email" type="email" bind:value={values.email} autofocus required />
             </div>
             <div>
-                <FormLabel for="password" value="Password" />
+                <FormLabel for="password" value={ $t('forms.password') } />
                 <FormInput id="password" name="password" type="password" bind:value={values.password} required />
             </div>
             <div>
-                <PrimaryButton type="submit">Login</PrimaryButton>
+                <PrimaryButton type="submit">{ $t('common.sign-in') }</PrimaryButton>
             </div>
         </form>
     </div>

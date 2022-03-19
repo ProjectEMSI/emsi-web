@@ -25,6 +25,20 @@ const config = ({
             ).default
         },
         {
+            locale: 'en',
+            key: 'widgets',
+            loader: async () => (
+                await import('./en/widgets.json')
+            ).default
+        },
+        {
+            locale: 'en',
+            key: 'forms',
+            loader: async () => (
+                await import('./en/forms.json')
+            ).default
+        },
+        {
             locale: 'cs',
             key: 'common',
             loader: async () => (
@@ -38,7 +52,21 @@ const config = ({
             loader: async () => (
                 await import('./cs/home.json')
             ).default
-        }
+        },
+        {
+            locale: 'cs',
+            key: 'widgets',
+            loader: async () => (
+                await import('./cs/widgets.json')
+            ).default
+        },
+        {
+            locale: 'cs',
+            key: 'forms',
+            loader: async () => (
+                await import('./cs/forms.json')
+            ).default
+        },
     ]
 })
 

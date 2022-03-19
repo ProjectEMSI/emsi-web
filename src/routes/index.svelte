@@ -15,7 +15,7 @@
 </script>
 
 <script>
-    import { t } from '$lib/translations';
+    import { t } from "$lib/translations";
     import Loading from "../lib/components/elements/Loading.svelte";
     import SingleArticle from "../lib/components/articles/SingleArticle.svelte";
     import SingleShort from "../lib/components/articles/SingleShort.svelte";

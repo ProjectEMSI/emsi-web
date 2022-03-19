@@ -1,0 +1,7 @@
+{
+  "name": "Jméno",
+  "username": "Uživatelské jméno",
+  "email": "E-Mail",
+  "password": "Heslo",
+  "password-confirmation": "Potvrzení hesla"
+}

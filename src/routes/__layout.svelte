@@ -1,26 +1,19 @@
 <script context="module">
 	import { locale, loadTranslations } from '$lib/translations';
+	import { fetchShorts } from "../lib/store/shorts.js";
 
 	export async function load({ url }) {
-		const response = await Promise.all([
-			fetch('http://game.test/api/v1/shorts/widget')
-		])
-
-		const shorts = await response[0].json();
-
 		const { pathname } = url;
 
 		const defaultLocale = 'cs'; // get from cookie, user session, ...
 
 		const initLocale = locale.get() || defaultLocale; // set default if no locale already set
 
+		await fetchShorts();
+
 		await loadTranslations(initLocale, pathname); // keep this just before the `return`
 
-		return {
-			props: {
-				shorts: shorts.data
-			}
-		};
+		return {};
 	}
 </script>
 
@@ -57,8 +50,6 @@
 	}
 
 	let menuToggle = false;
-
-	export let shorts = [];
 </script>
 
 <div class="h-screen flex overflow-hidden">
@@ -90,8 +81,10 @@
 								<slot />
 							</div>
 							<div class="hidden sm:block sm:col-span-1 space-y-6">
-								<Shorts shorts={shorts} />
-								<Discord />
+								<slot name="sidebar">
+									<Shorts />
+									<Discord />
+								</slot>
 							</div>
 						</div>
 					</div>

@@ -1,3 +1,7 @@
+<script>
+    import { t } from "$lib/translations"
+</script>
+
 <div class="p-3 overflow-hidden border rounded-lg bg-white border-slate-200">
     <a href="https://discord.gg/zeRfTkK93H" target="_blank">
         <svg class="w-auto h-12" width="292" height="80" viewBox="0 0 292 80" fill="none"
@@ -41,7 +45,7 @@
         <span class="block pt-1 mt-1 text-sm text-slate-700">
                 <span class="block font-bold">EMSI Discord</span>
                 <span class="block pt-2 pb-1 text-xs text-slate-600">
-                    Join our Discord channel to get the most out of our community!
+                    { $t('widgets.discord.join') }
                 </span>
             </span>
     </a>
