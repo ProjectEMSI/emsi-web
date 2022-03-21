@@ -14,7 +14,7 @@
 			class="relative mt-0 block h-full w-full flex-shrink-0 overflow-hidden p-0 sm:mr-10 sm:block sm:w-64 sm:rounded-lg"
 		>
 			<img
-				src={article.image}
+				src="http://game.test/{article.image}"
 				class="h-auto w-full rounded-xl object-cover"
 				loading="lazy"
 				alt={article.name}
@@ -23,10 +23,7 @@
 		<div class="relative mt-5 w-full px-0 sm:mt-0">
 			<h2 class="text-base font-bold text-slate-800 sm:text-xl">{article.name}</h2>
 			<span class="mt-2 inline-block text-slate-600 line-clamp-4 sm:text-sm">
-				Et molestiae hic earum repellat aliquid est doloribus delectus. Enim illum odio porro ut
-				omnis dolor debitis natus. Voluptas possimus deserunt sit delectus est saepe nihil. Qui
-				voluptate possimus et quia. Eligendi voluptas voluptas dolor cum. Rerum est quos quos id ut
-				molestiae fugit.
+				{article.description}
 			</span>
 		</div>
 	</a>
@@ -42,12 +39,12 @@
 			<div class="font-sm flex items-center text-slate-600">
 				<a href="/" class="block cursor-pointer">
 					<p class="text-sm font-medium leading-5 text-slate-700 group-hover:text-slate-900">
-						Admin
+						{article.author.name}
 					</p>
 					<span
 						class="inline-block flex pr-1 text-xs font-medium capitalize leading-4 text-slate-500 transition duration-150 ease-in-out group-hover:text-slate-700 group-focus:underline"
 					>
-						2 days ago
+						{article.created_at}
 					</span>
 				</a>
 			</div>
