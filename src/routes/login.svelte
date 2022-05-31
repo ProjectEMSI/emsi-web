@@ -18,8 +18,8 @@
 	import PrimaryButton from '../lib/components/elements/buttons/PrimaryButton.svelte';
 
 	let values = {
-		email: 'majkie.tros@gmail.com',
-		password: 'majkie1143'
+		email: 'admin@admin.com',
+		password: 'admin123'
 	};
 </script>
 
